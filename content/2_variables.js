@@ -2,7 +2,7 @@
 
   -> In JS you can declare a variable by using: let, const, var
   -> Don't use var, variables declared with var have a global scope, this isn't exactly bad, but is a good practice not to do it, instead, use let (has local scope)
-  -> If you want a variable to have constant value throughout the program, use const
+  -> If you want a variable to have constant value throughout the program, use const -> when naming constants is good practice to type all in uppercase
 */
 
 /*-----DATA TYPES-----
@@ -17,7 +17,7 @@
 
 var number; // You can declare a variable without assigning a value
 let animal = "Lion";
-const isAlie = true;
+const ISALIE = true;
 
 number = 56;
 
