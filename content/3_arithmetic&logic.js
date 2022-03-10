@@ -1,7 +1,10 @@
 /*-----ARITHMETIC LOGIC-----
 
   -> Arithmetic operators: +, -, *, /, %(return the remainder of the division)
-  -> Logic operators:
+  -> Logic operators: 
+    - ! (returns the opposite logical value, if true returns false, if false returns true)
+    - && (BOTH conditions must be true)
+    - || (Either condition can be true)
 
   -> Operator precedence:
     1. ()
@@ -10,10 +13,11 @@
     4. addition & subtraction 
 */
 
-const x = 9
-let y = x + 6
-y = y + 1
-y -= 1
-y = (5 - 7) * y
+const x = 9;
+let y = x + 6;
+y = y + 1;
+y -= 1;
+y = (5 - 7) * y;
+console.log(y);
 
-console.log(y)
+let temp = 15;
