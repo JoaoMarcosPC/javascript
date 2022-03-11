@@ -34,3 +34,13 @@ switch (grade) {
   default: // This gets executed if none of the cases are fulfilled
     console.log(grade, "is not a letter grade!");
 }
+
+
+//----- TERNARY OPERATOR -----
+// shortcut for an if else statement
+// condition ? "If true do this" : "If false do this"
+
+let condition = true;
+condition ? console.log("True") : console.log("False");
+condition = false;
+condition ? console.log("True") : console.log("False");
