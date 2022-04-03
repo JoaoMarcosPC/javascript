@@ -1,6 +1,6 @@
 # Javascript
 ---
-
+#### OBS: You can run the scripts using node or using an HTML file
 ### What is Javascript ?
 - A web-based programming language
 - Used for:
