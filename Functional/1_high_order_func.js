@@ -9,4 +9,4 @@ let triple = function(x) {
 let num_arr = [1, 2, 3, 4, 5]
 
 let new_num = num_arr.map(triple)
-console.log(new_num)
+console.log(new_num) 
