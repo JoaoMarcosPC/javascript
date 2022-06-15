@@ -1,10 +1,11 @@
 //----- HTTP REQUESTS -----
 //- HTTP requests are made to API endpoints
 //- Make HTTP requests to get data from another server
+// THIS METHOD ONLY WORKS ON BROWSERS
 
 const request = new XMLHttpRequest();
 
-request.addEventListener('readystatechange', () => {
+request.addEventListener("readystatechange", () => {
   // console.log(request, request.readyState);
   if (request.readyState === 4 && request.status === 200) {
     console.log(request.responseText);
